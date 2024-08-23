@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone - Playlists</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="logo">
+            <img src="assets/images/spotify-48.png" alt="Spotify Logo">
+        </div>
+        <ul class="sidebar-links">
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Buscar</a></li>
+            <li><a href="#">Sua Biblioteca</a></li>
+            <li><a href="#">Criar Playlist</a></li>
+            <li><a href="#">Músicas Curtidas</a></li>
+        </ul>
+    </aside>
+
+    <div class="main-content">
+        <header class="search-bar">
+            <input type="text" placeholder="Buscar músicas, artistas ou podcasts">
+        </header>
+
+        <section class="playlist-section">
+            <h2>Suas Playlists</h2>
+            <div class="playlist-grid">
+                <div class="playlist-item">
+                    <img src="assets/images/vino.jpg" alt="Playlist 1">
+                    <h3>DVD - Vino</h3>
+                </div>
+                <div class="playlist-item">
+                    <img src="assets/images/crybaby.webp" alt="Playlist 2">
+                    <h3>Crybaby - Peep</h3>
+                </div>
+                <div class="playlist-item">
+                    <img src="assets/images/images.jpg" alt="Playlist 3">
+                    <h3>Calabasas - G.A</h3>
+                </div>
+                <div class="playlist-item">
+                    <img src="assets/images/rudies.jpg" alt="Playlist 4">
+                    <h3>Menino bom, mlk ruim - Rudies</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="playlist-section">
+            <div class="playlist-grid">
+                <div class="playlist-item">
+                    <img src="assets/images/vino.jpg" alt="Playlist 1">
+                    <h3>DVD - Vino</h3>
+                </div>
+                <div class="playlist-item">
+                    <img src="assets/images/crybaby.webp" alt="Playlist 2">
+                    <h3>Crybaby - Peep</h3>
+                </div>
+                <div class="playlist-item">
+                    <img src="assets/images/images.jpg" alt="Playlist 3">
+                    <h3>Calabasas - G.A</h3>
+                </div>
+                <div class="playlist-item">
+                    <img src="assets/images/rudies.jpg" alt="Playlist 4">
+                    <h3>Menino bom, mlk ruim - Rudies</h3>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="player-bar">
+        <div class="player-controls">
+            <button><img style="width: 20px; height: 20px;" src="assets/images/icons8-voltar-50.png" alt=""></button>
+            <button><img style="width: 20px; height: 20px;" src="assets/images/icons8-reproduzir-30.png" alt=""></button>
+            <button><img style="width: 20px; height: 20px;" src="assets/images/icons8-avançar-50.png" alt=""></button>
+        </div>
+        <div class="player-progress">
+            <span>0:00</span>
+            <input type="range" value="0" max="100">
+            <span>3:45</span>
+        </div>
+        <div class="player-volume">
+            <input type="range" value="50" max="100">
+        </div>
+    </footer>
+</body>
+</html>
